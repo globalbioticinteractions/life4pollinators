@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml system="https://pasta.edirepository.org" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access system="https://pasta.edirepository.org" scope="document" order="allowFirst" authSystem="https://pasta.edirepository.org/authentication">
+    <allow>
+      <principal>https://orcid.org/0000-0002-1062-4760</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Insect-flower interactions in the Mediterranean area: a Citizen Science dataset collated within the LIFE 4 Pollinators project</title>
+    <creator>
+      <individualName>
+        <givenName>Marta</givenName>
+        <surName>Barberis</surName>
+      </individualName>
+      <electronicMailAddress>marta.barberis2@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-1062-4760</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Fortunato</givenName>
+        <givenName>Fulvio</givenName>
+        <surName>Bitonto</surName>
+      </individualName>
+      <electronicMailAddress>fortunato.bitonto2@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0008-9185-6758</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roberto</givenName>
+        <surName>Costantino</surName>
+      </individualName>
+      <electronicMailAddress>roberto.costantino@regione.piemonte.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-3428-1077</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lorenzo</givenName>
+        <surName>Bianco</surName>
+      </individualName>
+      <electronicMailAddress>l.bianco@unito.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-1087-1155</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Daniele</givenName>
+        <surName>Birtele</surName>
+      </individualName>
+      <electronicMailAddress>d.birtele@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0000-8442-7762</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>Bonifacino</surName>
+      </individualName>
+      <electronicMailAddress>mbonifacino2317@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-6190-3965</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Giacomo</givenName>
+        <surName>Cangelmi</surName>
+      </individualName>
+      <electronicMailAddress>giacomo.cangelmi@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0004-8411-4175</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Miquel</givenName>
+        <surName>Capò</surName>
+      </individualName>
+      <electronicMailAddress>miquelcaposervera@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-4394-7080</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Athanasia</givenName>
+        <surName>Chroni</surName>
+      </individualName>
+      <electronicMailAddress>achroni@aegean.gr</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0002-8189-8504</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marco</givenName>
+        <surName>d'Agostino</surName>
+      </individualName>
+      <electronicMailAddress>marco.dago94@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-9973-7480</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Matteo</givenName>
+        <surName>Dal Cin</surName>
+      </individualName>
+      <electronicMailAddress>matteo.dalcin.21@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0006-7216-1438</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jelle</givenName>
+        <surName>Devalez</surName>
+      </individualName>
+      <electronicMailAddress>jelle.devalez@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-1110-0640</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Bortolotti</surName>
+      </individualName>
+      <electronicMailAddress>laura.bortolotti@crea.gov.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-7372-1579</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Simone</givenName>
+        <surName>Flaminio</surName>
+      </individualName>
+      <electronicMailAddress>flaminiosimone88@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-5823-1202</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Antonio</givenName>
+        <surName>Giacò</surName>
+      </individualName>
+      <electronicMailAddress>antonio.giaco@phd.unipi.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-8263-6018</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lucia</givenName>
+        <surName>Lenzi</surName>
+      </individualName>
+      <electronicMailAddress>lucia.lenzi4@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-8838-822X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Serena</givenName>
+        <surName>Magagnoli</surName>
+      </individualName>
+      <electronicMailAddress>serena.magagnoli4@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-5276-4649</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Alessio</givenName>
+        <surName>Minici</surName>
+      </individualName>
+      <electronicMailAddress>minici.alessio@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0009-4784-3789</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Georgios</givenName>
+        <surName>Nakas</surName>
+      </individualName>
+      <electronicMailAddress>nakas.g@geo.aegean.gr</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-3023-5831</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Luis</givenName>
+        <surName>Navarro</surName>
+      </individualName>
+      <electronicMailAddress>lnavarro@uvigo.gal</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-8308-2237</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gianfranco</givenName>
+        <surName>Samuele</surName>
+      </individualName>
+      <electronicMailAddress>gianfranco.samuele2@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0003-1742-0191</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>José Marìa</givenName>
+        <surName>Sanchéz</surName>
+      </individualName>
+      <electronicMailAddress>jmsbot@uvigo.gal</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-3280-3444</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Theodora</givenName>
+        <surName>Petanidou</surName>
+      </individualName>
+      <electronicMailAddress>tpet@aegean.gr</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-1883-0945</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marino</givenName>
+        <surName>Quaranta</surName>
+      </individualName>
+      <electronicMailAddress>marino.quaranta@crea.gov.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-0082-4555</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Rosa</givenName>
+        <surName>Ranalli</surName>
+      </individualName>
+      <electronicMailAddress>r.ranalli1@campus.unimib.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-5460-676X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michele</givenName>
+        <surName>Rossini</surName>
+      </individualName>
+      <electronicMailAddress>micros.naturae@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-1938-6105</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Enrico</givenName>
+        <surName>Ruzzier</surName>
+      </individualName>
+      <electronicMailAddress>enrico.ruzzier@uniroma3.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-1020-1247</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Fabio</givenName>
+        <surName>Sgolastra</surName>
+      </individualName>
+      <electronicMailAddress>fabio.sgolastra2@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-2845-8297</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Anna</givenName>
+        <surName>Traveset</surName>
+      </individualName>
+      <electronicMailAddress>atraveset@csic.es</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-1816-1334</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Emanuele</givenName>
+        <givenName>Luigi</givenName>
+        <surName>Zenga</surName>
+      </individualName>
+      <electronicMailAddress>emanueleluigi.zenga@unito.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0009-0000-9821-4485</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Marta</givenName>
+        <surName>Galloni</surName>
+      </individualName>
+      <electronicMailAddress>marta.galloni@unibo.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0001-5304-7820</userId>
+    </creator>
+    <abstract>                                          <para>Pollinators play a vital role in most terrestrial ecosystems, supporting wild plant communities and enhancing agricultural yields. However, despite their ecological and economic importance, they have been experiencing an alarming decline over the past decades. The Mediterranean region, known for harboring highly diverse communities of plants and pollinators, is particularly vulnerable due to intense anthropogenic pressures. Furthermore, the ecological roles of many floral visitors remain poorly understood, hindering conservation efforts. In response, in recent years, growing attention has been directed toward the contribution that citizens can give in support of pollinator research. An increasing number of projects have adopted a Citizen Science approach to enable large-scale data collection. The LIFE 4 Pollinators project (LIFE18/GIE/IT/000755) “Involving people to protect wild bees and other pollinators in the Mediterranean” aims to promote the conservation of pollinating insects and entomophilous plants across the Mediterranean region by fostering progressive changes in human practices that threaten wild pollinators. In addition to the implementation of several actions to raise awareness, the project launched a web platform to collect photographic records of insect-flower interaction from the public. The platform is expected to remain active for at least ten years, during which time we encourage continuing record submissions by interested bodies. We commit to periodic online updates of the current dataset, which we make freely available to anyone.</para>
+</abstract>
+    <keywordSet>
+      <keyword>Biodiversity conservation</keyword>
+      <keyword>Natura 2000</keyword>
+      <keyword>Plant diversity</keyword>
+      <keyword>Citizen Science</keyword>
+      <keyword>Pollinators</keyword>
+    </keywordSet>
+    <intellectualRights>                        <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+</intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <contact>
+      <individualName>
+        <givenName>Roberto</givenName>
+        <surName>Costantino</surName>
+      </individualName>
+      <electronicMailAddress>roberto.costantino@regione.piemonte.it</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0003-3428-1077</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>                                                                      <para>As part of the LIFE 4 Pollinators project, a web platform was developed in 2021 to collect photographs of insects visiting flowers (https://www.life4pollinators.eu/en/submission). The platform has been designed to be freely accessible to the public to encourage engagement, meaning that no registration is needed to send photo records. Users are invited to upload photographs of insects interacting with flowers (hereafter referred to as “records”) and possibly provide additional ecological information.</para>
+          <para>The primary details to be entered include the date of observation, the geographical coordinates, the habitat type, the abundance of plant individuals within the population, and the kind and status of site protection. Users can identify the observed organisms, by selecting the pollinator taxonomic aggregation from a given list of alternative choices (bee, wasp, beetle, butterfly, moth, hoverfly, and bee fly) and/or by writing the name of the pollinator, and that of the plant (at the taxonomic level they choose). A team of expert taxonomists then identifies the observations uploaded to the platform to the finest possible taxonomic level, refining the first identification provided by the user (Bitonto et al. 2025). The identification process consists of two steps: first, a team member determines the insect and/or plant; then, a second expert confirms the accuracy or adjusts the identification if necessary. Once verified, the images along with their taxonomic information are displayed publicly on the website map (https://www.life4pollinators.eu/en/map).</para>
+          <para>The platform was promoted on multiple occasions, especially during the 27 bioblitz events organized throughout the project implementation (from 2021 through to 2024). On these occasions, citizen scientists were assisted by expert taxonomists, ensuring that most plant records identified to species level underwent in situ validation. As a result, it was made possible to identify many records at species level even when the photographs alone could not capture the necessary diagnostic traits for accurate identification. Similarly, insect taxonomists assisted in the correct identification of flower visitors relying on the morphological traits visible in the photographs or in the field, since no insect was sampled during the events. . In cases where closely related or cryptic species could not be confidently distinguished visually, the experts relied on their experience or, when possible, consulted entomological collections available for the surveyed areas. However, since a formal taxonomic identification was not possible, most of the insect records identified at species level should be intended as morphological groups (e.g. Bombus terrestris). This means that the observed individuals exhibited morphological characteristics of the indicated species but discriminating them from similar species was not possible on a visual basis.</para>
+</description>
+      </methodStep>
+    </methods>
+    <!--dataTable>
+      <entityName>event</entityName>
+      <entityDescription>Core event file reporting EventID, date, geographical coordinates, habitat given by citizen scientists, sampling protocol and if the observations are located or not in Natura 2000 sites (locality and verbatimLocality) from May 2021 to April 2025.</entityDescription>
+      <physical>
+        <objectName>event.csv</objectName>
+        <size unit="byte">815525</size>
+        <authentication method="MD5">e52a6494350c0a8268840b6d5a232300</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Fortunato_Fulvio__Bitonto-1bab5d04ff9d092f859db2b179b8fa77/uploads/eml/event.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="4eee4fe0-bdcc-4d1e-a739-e727447656d3">
+          <attributeName>eventID</attributeName>
+          <attributeLabel>eventID</attributeLabel>
+          <attributeDefinition>Alphanumerical code to identify each submitted record.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="34dad782-73c7-43cc-92a5-9b7f8f3b3d0b">
+          <attributeName>eventDate</attributeName>
+          <attributeLabel>eventDate</attributeLabel>
+          <attributeDefinition>The date on which the photograph was taken, in ISO 8601-1:2019 format (YYYY-MM-DD). When followed by an asterisk the given date was deduced a posteriori, assuming that the date of observation was the same as the date of record submission.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="3f9b0ee0-88b7-48c3-8cbe-2f6f99436deb">
+          <attributeName>decimalLatitude</attributeName>
+          <attributeLabel>decimalLatitude</attributeLabel>
+          <attributeDefinition>The decimalized latitude of the site in which the photograph was taken.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="09e22d3e-606a-4bfa-bde7-211b77fb3de2">
+          <attributeName>decimalLongitude</attributeName>
+          <attributeLabel>decimalLongitude</attributeLabel>
+          <attributeDefinition>The decimalized longitude of the site in which the photograph was taken.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="22d7b45b-bdde-4223-9302-34fbfe634377">
+          <attributeName>geodeticDatum</attributeName>
+          <attributeLabel>geodeticDatum</attributeLabel>
+          <attributeDefinition>The ellipsoid, geodetic datum upon which the geographic coordinates are based.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>WGS84</code>
+                    <definition>World Geodetic System 1984</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="fc22901f-2911-4f12-b02e-0ec4024f75a6">
+          <attributeName>country</attributeName>
+          <attributeLabel>country</attributeLabel>
+          <attributeDefinition>The country where the record was taken.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bulgaria</code>
+                    <definition>Bulgaria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cyprus</code>
+                    <definition>Cyprus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>France</code>
+                    <definition>France</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Greece</code>
+                    <definition>Greece</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Italy</code>
+                    <definition>Italy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Portugal</code>
+                    <definition>Portugal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Slovenia</code>
+                    <definition>Slovenia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Spain</code>
+                    <definition>Spain</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="4fd785c3-1887-4376-ac59-feae6dbd064c">
+          <attributeName>countryCode</attributeName>
+          <attributeLabel>countryCode</attributeLabel>
+          <attributeDefinition>The standard country code according to ISO 3166-1-alpha-2</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>BG</code>
+                    <definition>Bulgaria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CY</code>
+                    <definition>Cyprus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ES</code>
+                    <definition>Spain</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FR</code>
+                    <definition>France</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GR</code>
+                    <definition>Greece</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IT</code>
+                    <definition>Italy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PT</code>
+                    <definition>Portugal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SI</code>
+                    <definition>Slovenia</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="977fb1b6-4adf-40c3-a1f3-b866ea6f03fc">
+          <attributeName>habitat</attributeName>
+          <attributeLabel>habitat</attributeLabel>
+          <attributeDefinition>The type of landscape surrounding the observation site. Options are “urban”, “periurban”, “hills”, “mountain”, “lowland”, “island”, “archaeological site”, “seaside”, “riverside”, “lakeside”, or a combination of multiple answers. This could either be entered by users or – when missing – deducted a posteriori by consulting a map.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="121cca7b-a720-4933-a5e7-f10f76859a1c">
+          <attributeName>samplingProtocol</attributeName>
+          <attributeLabel>samplingProtocol</attributeLabel>
+          <attributeDefinition>Protocol adopted for sampling.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>visual observation|photograph|Barberis et al. (in press) "Insect-flower interactions in the Mediterranean area: a Citizen Science dataset collated within the LIFE 4 Pollinators project". https://doi.org/xxxxx</code>
+                    <definition>visual observation|photograph|Barberis et al. (in press) "Insect-flower interactions in the Mediterranean area: a Citizen Science dataset collated within the LIFE 4 Pollinators project". https://doi.org/xxxxx</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="a31f93b0-3838-4d30-9a17-4ec1f1e4f4b6">
+          <attributeName>basisOfRecord</attributeName>
+          <attributeLabel>basisOfRecord</attributeLabel>
+          <attributeDefinition>The specific nature of the data record.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>HumanObservation</code>
+                    <definition>Observation taken by citizen scientists.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ec3c003d-8533-45b8-ad6f-cfdae8d7289c">
+          <attributeName>locality</attributeName>
+          <attributeLabel>locality</attributeLabel>
+          <attributeDefinition>Whether the area is part of the Natura 2000 network or not. Two are the alternative answers: “OutsideNatura2000” or the Natura 2000 code(s) the site pertains to.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="e931240e-a333-4dbb-87a1-58e97b18790c">
+          <attributeName>verbatimLocality</attributeName>
+          <attributeLabel>verbatimLocality</attributeLabel>
+          <attributeDefinition>Text description corresponding to the value reported in 'locality', providing the statement of whether the observation took place within specific Natura 2000 sites (with the relevant codes) or outside the Natura 2000 network. </attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2203</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>flower visitors.csv</entityName>
+      <entityDescription>Occurrence extension file containing records of flower visitors observed by citizen scientists, with unique occurrence identifiers, scientific names, and associated notes.</entityDescription>
+      <physical>
+        <objectName>flower visitors.csv</objectName>
+        <size unit="byte">130307</size>
+        <authentication method="MD5">4db974357090e046f7d1e4c9f4e01232</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Fortunato_Fulvio__Bitonto-1bab5d04ff9d092f859db2b179b8fa77/uploads/eml/flower%20visitors.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="9acf51cb-b6c8-4a77-afd8-c8d2075df86a">
+          <attributeName>eventID</attributeName>
+          <attributeLabel>eventID</attributeLabel>
+          <attributeDefinition>Alphanumerical code to identify each submitted record.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="36e9b914-29c2-4188-908a-e2dd8d9762b4">
+          <attributeName>occurrenceID</attributeName>
+          <attributeLabel>occurrenceID</attributeLabel>
+          <attributeDefinition>A unique identifier assigned to each insect taxon occurrence observed visiting a flower.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="3dce29ab-277a-4055-beb5-08c3ce931c72">
+          <attributeName>scientificName</attributeName>
+          <attributeLabel>scientificName</attributeLabel>
+          <attributeDefinition>The scientific name of the floral visitor depicted in the photographic record, at the finest taxonomical level insect experts could reach.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1a4a33c4-ab3e-49d8-b7cd-8f2b599b4266">
+          <attributeName>occurrenceRemarks</attributeName>
+          <attributeLabel>occurrenceRemarks</attributeLabel>
+          <attributeDefinition>Behavior of flower-visiting insects as reported by citizen scientists at the time of photo upload.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>feeding</code>
+                    <definition>Collection of nutritional resources for self-feeding or offspring provisioning.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mating</code>
+                    <definition>mating</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>resting</code>
+                    <definition>resting</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>uncertain</code>
+                    <definition>uncertain</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2203</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>plants.csv</entityName>
+      <entityDescription>Occurrence extension file containing records of visited plants observed by citizen scientists, with unique occurrence identifiers, scientific names, and information on abundance or quantity.</entityDescription>
+      <physical>
+        <objectName>plants.csv</objectName>
+        <size unit="byte">158526</size>
+        <authentication method="MD5">802bd0466aea680cb6a16196e6dce1e9</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Fortunato_Fulvio__Bitonto-1bab5d04ff9d092f859db2b179b8fa77/uploads/eml/plants.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="d0d11f41-89b9-4966-b121-66291fdc5295">
+          <attributeName>eventID</attributeName>
+          <attributeLabel>eventID</attributeLabel>
+          <attributeDefinition>Alphanumerical code to identify each submitted record.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="b7269e9c-3b65-4374-aa26-4423bff0e61f">
+          <attributeName>organismQuantity</attributeName>
+          <attributeLabel>organismQuantity</attributeLabel>
+          <attributeDefinition>Users could either choose between the following alternative answers: “individual/singular plant”, “less than ten”, “more than ten”.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>individual/singular</code>
+                    <definition>individual/singular</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>less than ten</code>
+                    <definition>less than ten individual plants</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>more than ten</code>
+                    <definition>more than ten individual plants</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="3deffc50-3bf4-49da-860d-8383545e819a">
+          <attributeName>organismQuantityType</attributeName>
+          <attributeLabel>organismQuantityType</attributeLabel>
+          <attributeDefinition>The type of quantification system used for the assessment of the quantity of individual plants.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>individuals</code>
+                    <definition>Individual plants</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>Missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="e6d88e75-47b6-4a3d-90e6-b951b5cd9a0c">
+          <attributeName>occurrenceID</attributeName>
+          <attributeLabel>occurrenceID</attributeLabel>
+          <attributeDefinition>A unique identifier for each plant taxon recorded by citizen scientsts.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5c5b68f3-bf74-4426-a9e8-99dc137c9fac">
+          <attributeName>ScientificName</attributeName>
+          <attributeLabel>ScientificName</attributeLabel>
+          <attributeDefinition>The scientific name of the plant depicted in the photographic record, at the finest taxonomical level plant experts could reach.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2203</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>relationship.csv</entityName>
+      <entityDescription>ResourceRelationship extension file reporting the links between insect and plant occurrences, specifying which insect occurrence (resourceID) is associated with which plant occurrence (relatedResourceID), together with the type and identifier of the interaction.</entityDescription>
+      <physical>
+        <objectName>relationship.csv</objectName>
+        <size unit="byte">268247</size>
+        <authentication method="MD5">2d5418c4988caaabd00a1275b80e4150</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>;</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Fortunato_Fulvio__Bitonto-1bab5d04ff9d092f859db2b179b8fa77/uploads/eml/relationship.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="385ea850-fb43-4484-bd88-17f0c3152e1f">
+          <attributeName>eventID</attributeName>
+          <attributeLabel>eventID</attributeLabel>
+          <attributeDefinition>Numerical (or alphanumerical) code to identify each submitted record.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="65d1ad42-c9d7-450d-a631-78919c185e92">
+          <attributeName>resourceID</attributeName>
+          <attributeLabel>resourceID</attributeLabel>
+          <attributeDefinition>An identifier for the resource that is the subject of the relationship (insects).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="3c89011a-b6da-4ec5-989a-17fc6676ff48">
+          <attributeName>relatedResourceID</attributeName>
+          <attributeLabel>relatedResourceID</attributeLabel>
+          <attributeDefinition>n identifier for a related resource (plants).</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="f0d2a050-81a6-41a4-8a7a-006d0eea0118">
+          <attributeName>relationshipOfResource</attributeName>
+          <attributeLabel>relationshipOfResource</attributeLabel>
+          <attributeDefinition>The interaction of the visiting insect with the flower.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>visits flowers of</code>
+                    <definition>visits flowers of</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="a5ffa771-cffa-4f44-bf82-e20c3e9b7cea">
+          <attributeName>relationshipOfResourceID</attributeName>
+          <attributeLabel>relationshipOfResourceID</attributeLabel>
+          <attributeDefinition>An identifier for the relationship type that connects the insect to the flower.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>http://purl.obolibrary.org/obo/RO_0002622</code>
+                    <definition>visit flowers of</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>2203</numberOfRecords>
+    </dataTable!-->
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML filename="eml.xml" dateImported="2025-08-04" taxonomicCoverageExempt="True"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.07.17"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
