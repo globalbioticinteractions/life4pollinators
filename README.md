@@ -10,7 +10,7 @@ Barberis, M., Bitonto, F. F., Costantino, R., Bianco, L., Birtele, D., Bonifacin
 
 As published in https://doi.org/10.5281/zenodo.16949654, ```LIFE 4 Pollinators Darwin Core.zip``` (hash://md5/2ee4f59c1b481c6e564ba41b6459983e) was edited to better conform with DwC-A: 
 
-1. Character encoding - The meta.xml suggested that UTF-8 encoding was used. However, UTF-16 encoding was found. The updated meta.xml now sets the encoding to UTF-16 as expected. 
+1. Character encoding - The meta.xml suggested that UTF-8 encoding was used. However, UTF-16 encoding was found. The data tables were converted into UTF-8 encoded text files with tsv (tab-separated values) extension. The meta.xml was updated accordingly. 
 2. delimiters - the meta.xml suggested that semi-colons were used as delimiters. However, in the data tables, tab separated values are found. The meta.xml was updated to reflect this.
 3. merging two occurrence tables - in original dataset, two occurrence tables were found: ```plants.txt``` and ```flower visitors.txt```. The two occurrence tables were merged to ```occurrence.tsv``` and the meta.xml was updated accordingly.
 4. mismatched event id and occurrence id values - for some reason, the original datasets included some event id prefixes that had no equivalent in the ```event.txt``` table. These included:  
