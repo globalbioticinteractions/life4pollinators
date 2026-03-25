@@ -4,9 +4,9 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xsi:schemaLocation="http://rs.tdwg.org/dwc/text/ http://rs.tdwg.org/dwc/text/tdwg_dwc_text.xsd">
 
-    <core encoding="UTF-16" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Event">
+    <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Event">
         <files>
-            <location>event.txt</location>
+            <location>event.tsv</location>
         </files>
         <id index="0" />
         <field index="0" term="http://rs.tdwg.org/dwc/terms/eventID" />
@@ -23,7 +23,7 @@
 	<field index="11" term="http://rs.tdwg.org/dwc/terms/verbatimLocality"/>
     </core>
 
-    <extension encoding="UTF-16" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='"' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='"' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
         <files>
             <location>occurrence.tsv</location>
         </files>
@@ -35,9 +35,9 @@
         <field index="5" term="http://rs.tdwg.org/dwc/terms/organismQuantityType"/>
     </extension>
     
-    <extension encoding="UTF-16" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='"' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/ResourceRelationship">
+    <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='"' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/ResourceRelationship">
         <files>
-            <location>relationship.txt</location>
+            <location>relationship.tsv</location>
         </files>
         <coreid index="0" />
         <field index="1" term="http://rs.tdwg.org/dwc/terms/resourceID"/>
