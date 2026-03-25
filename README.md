@@ -13,7 +13,9 @@ As published in https://doi.org/10.5281/zenodo.16949654, ```LIFE 4 Pollinators D
 1. Character encoding - The meta.xml suggested that UTF-8 encoding was used. However, UTF-16 encoding was found. The data tables were converted into UTF-8 encoded text files with tsv (tab-separated values) extension. The meta.xml was updated accordingly. 
 2. delimiters - the meta.xml suggested that semi-colons were used as delimiters. However, in the data tables, tab separated values are found. The meta.xml was updated to reflect this.
 3. merging two occurrence tables - in original dataset, two occurrence tables were found: ```plants.txt``` and ```flower visitors.txt```. The two occurrence tables were merged to ```occurrence.tsv``` and the meta.xml was updated accordingly.
-4. mismatched event id and occurrence id values - for some reason, the original datasets included some event id prefixes that had no equivalent in the ```event.txt``` table. These included:  
+4. removed out-of-date dataTable definitions from eml.xml (e.g., filenames no longer matched, download urls inactive)
+5. added usageCitation/bibtex element to eml.xml with a reference to the associated JPE article
+6. mismatched event id and occurrence id values - for some reason, the original datasets included some event id prefixes that had no equivalent in the ```event.txt``` table. These included:  
 
 from ```flower visitor.txt```
 
